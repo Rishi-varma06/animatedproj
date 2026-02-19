@@ -602,3 +602,114 @@ body {
 .page14-inner:hover .center14 {
   height: 100%;
 }
+ video {
+      pointer-events: none;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+
+      #center-nav {
+        display: none;
+      }
+
+      nav {
+        padding: 15px 20px !important;
+      }
+
+      #bottom-page1 {
+        width: 90vw !important;
+        left: 5% !important;
+      }
+
+      #bottom-page1>h1 {
+        font-size: 8vw !important;
+      }
+
+      #bottom-page1-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      #bottom-page1-inner>h4 {
+        font-size: 3.5vw !important;
+      }
+
+      #bottom-page1-inner>button {
+        font-size: 14px;
+        padding: 10px 18px;
+      }
+
+      #page2>h1,
+      #page4>h1,
+      #page6>h1 {
+        font-size: 6vw !important;
+        width: 95% !important;
+      }
+
+      #page4>h3,
+      #page6>h3 {
+        margin-left: 5vw !important;
+      }
+
+      #page7-circle {
+        height: 70vw !important;
+        width: 70vw !important;
+      }
+
+      #page7-circle-inner {
+        height: 50vw !important;
+        width: 50vw !important;
+      }
+
+      .right9,
+      .left9 {
+        width: 100% !important;
+      }
+
+      #page9 {
+        flex-direction: column;
+      }
+
+      .right10 {
+        width: 90% !important;
+        left: 5% !important;
+      }
+
+      .right10-inner>h1 {
+        font-size: 5vw !important;
+      }
+
+      .right10-inner>p {
+        font-size: 3.5vw !important;
+        width: 100% !important;
+      }
+
+      #page11>h1 {
+        font-size: 7vw !important;
+      }
+
+      .page11-inner {
+        flex-direction: column;
+        height: auto !important;
+        gap: 20px;
+      }
+
+      .left11,
+      .right11 {
+        width: 90% !important;
+      }
+
+      .right11>h1 {
+        font-size: 4.5vw !important;
+      }
+
+      #page13>h1 {
+        font-size: 8vw !important;
+      }
+
+      .page14-inner>h1 {
+        font-size: 5vw !important;
+      }
+    }
